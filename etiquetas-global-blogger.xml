@@ -15,3 +15,12 @@ Referencia URL: https://www.zkreations.com/
 <data:post.date/> <!-- Fecha en el formato configurado -->	
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
+
+
+<!-- Código Cambiar el año del copyright --> 
+<script type="text/javascript">
+copyright=new Date();
+update=copyright.getFullYear();
+document.write("© 2014 - " + update + " " + "Título de la web");
+</script>
+<!-- //Fin Código Cambiar el año del copyright -->
