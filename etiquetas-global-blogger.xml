@@ -6,7 +6,7 @@ Licensia URL: http://creativecommons.org/licenses/by/3.0/
 Referencia URL: https://www.zkreations.com/
 -->			
 
-<!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER -->	 
+<!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER --> 
 
 <img expr:src='data:post.firstImageUrl'/> <!-- Primera imagen de la entrada -->	
 <data:post.author/>	<!-- Nombre del autor -->						
@@ -16,11 +16,14 @@ Referencia URL: https://www.zkreations.com/
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
 
+<!-- //ETIQUETAS DE DATOS GLOBALES EN BLOGGER -->	
 
-<!-- Código Cambiar el año del copyright --> 
+<!-- CAMBIAR EL AÑO DEL COPYRIGHT -->
+ 
 <script type="text/javascript">
 copyright=new Date();
 update=copyright.getFullYear();
 document.write("© 2014 - " + update + " " + "Título de la web");
 </script>
-<!-- //Fin Código Cambiar el año del copyright -->
+
+<!-- //CAMBIAR EL AÑO DEL COPYRIGHT --> 
