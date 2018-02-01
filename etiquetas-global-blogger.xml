@@ -1,0 +1,17 @@
+<!--
+Autor: Tutorial Blogger
+Autor URL: https://www.tutorialblogger.org/
+Licensia: Creative Commons Attribution 3.0 Unported
+Licensia URL: http://creativecommons.org/licenses/by/3.0/
+Referencia URL: https://www.zkreations.com/
+-->			
+
+<!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER -->	 
+
+<img expr:src='data:post.firstImageUrl'/> <!-- Primera imagen de la entrada -->	
+<data:post.author/>	<!-- Nombre del autor -->						
+<a expr:href='data:post.url' style='color:#fff'></a> <!-- URL hacia la entrada -->	
+<data:post.title/> <!-- Título de la entrada -->	
+<data:post.date/> <!-- Fecha en el formato configurado -->	
+<a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
+<data:blog.title/>	<!-- Título del blog -->
