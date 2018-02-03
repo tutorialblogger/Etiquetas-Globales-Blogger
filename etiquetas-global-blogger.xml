@@ -16,7 +16,10 @@ Referencia URL: https://www.zkreations.com/
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
 
-<!-- //ETIQUETAS DE DATOS GLOBALES EN BLOGGER -->	
+<!-- CONDICIONALES DE BLOGGER --> 
+
+<b:if cond='data:blog.homepageUrl == data:blog.url'> <!-- Mostrar gadgets solo en la portada -->	
+</b:if> <!-- Cierre de la condicionale -->
 
 <!-- CAMBIAR EL AÑO DEL COPYRIGHT -->
  
