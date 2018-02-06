@@ -9,12 +9,15 @@ Referencia URL: https://www.zkreations.com/
 <!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER --> 
 
 <img expr:src='data:post.firstImageUrl'/> <!-- Primera imagen de la entrada -->	
-<data:post.author/>	<!-- Nombre del autor -->						
+<expr:alt='data:post.title'/> <!-- Etiqueta ALT para imagenes -->
+<data:post.author/>	<!-- Nombre del autor -->	
+<data:post.authorProfileUrl/>	<!-- Url del perfil de Blogger o Google+ -->	
 <a expr:href='data:post.url' style='color:#fff'></a> <!-- URL hacia la entrada -->	
 <data:post.title/> <!-- Título de la entrada -->	
 <data:post.date/> <!-- Fecha en el formato configurado -->	
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
+<b:eval expr='data:post.longSnippet snippet {length: 150}'/> <!-- Resumen de la entrada. Máximo 1000 caracteres. No interpreta html -->
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
