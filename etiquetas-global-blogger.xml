@@ -4,6 +4,7 @@ Autor URL: https://www.tutorialblogger.org/
 Licensia: Creative Commons Attribution 3.0 Unported
 Licensia URL: http://creativecommons.org/licenses/by/3.0/
 Referencia URL: https://www.zkreations.com/
+Referencia URL: http://www.ciudadblogger.com/
 -->			
 
 <!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER --> 
@@ -22,6 +23,15 @@ Referencia URL: https://www.zkreations.com/
 <!-- CONDICIONALES DE BLOGGER --> 
 
 <b:if cond='data:blog.homepageUrl == data:blog.url'> <!-- Mostrar gadgets solo en la portada -->	
+<b:if cond='data:blog.pageType == &quot;item&quot;'> <!-- Ejecutar un elemento sólo en las entradas individuales -->
+<b:if cond='data:blog.pageType == &quot;archive&quot;'> <!-- Ejecutar un elemento en las páginas del archivo -->
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'> <!-- Ejecutar elemento en las páginas estáticas -->  
+<b:if cond='data:blog.url == &quot;URL de la entrada o etiqueta&quot;'>  <!-- Ejecutar elemento en una entrada específica o etiqueta específica -->
+<b:if cond='data:blog.url != data:blog.homepageUrl'> <!-- Ejecutar un elemento en todas las páginas MENOS en la portada del blog --> 
+<b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las entradas individuales -->
+<b:if cond='data:blog.pageType != &quot;archive&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas del archivo del blog -->   
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas estáticas -->   
+<b:if cond='data:blog.url != &quot;URL de la entrada o etiqueta&quot;'> <!-- Ejecutar  en todas las páginas MENOS en una entrada específica o etiqueta específica -->   
 </b:if> <!-- Cierre de la condicionale -->
 
 <!-- CAMBIAR EL AÑO DEL COPYRIGHT -->
