@@ -32,7 +32,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:if cond='data:blog.pageType != &quot;archive&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas del archivo del blog -->   
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas estáticas -->   
 <b:if cond='data:blog.url != &quot;URL de la entrada o etiqueta&quot;'> <!-- Ejecutar  en todas las páginas MENOS en una entrada específica o etiqueta específica -->   
-</b:if> <!-- Cierre de la condicionale -->
+</b:if> <!-- Cierre de la condicional -->
 
 <!-- CAMBIAR EL AÑO DEL COPYRIGHT -->
  
