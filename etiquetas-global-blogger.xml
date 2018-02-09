@@ -19,6 +19,8 @@ Referencia URL: http://www.ciudadblogger.com/
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
 <b:eval expr='data:post.longSnippet snippet {length: 150}'/> <!-- Resumen de la entrada. Máximo 1000 caracteres. No interpreta html -->
+<data:post.body/> <!-- Contenido de la entrada. Interpreta Html. -->	
+
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
