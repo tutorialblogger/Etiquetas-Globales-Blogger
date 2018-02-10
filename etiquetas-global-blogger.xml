@@ -20,7 +20,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <data:blog.title/>	<!-- Título del blog -->
 <b:eval expr='data:post.longSnippet snippet {length: 150}'/> <!-- Resumen de la entrada. Máximo 1000 caracteres. No interpreta html -->
 <data:post.body/> <!-- Contenido de la entrada. Interpreta Html. -->	
-
+<b:section id='sidebar'> </b:section> <!-- Crear sección sidebar. -->
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
