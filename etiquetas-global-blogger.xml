@@ -22,6 +22,9 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:eval expr='data:post.longSnippet snippet {length: 150}'/> <!-- Resumen de la entrada. Máximo 1000 caracteres. No interpreta html -->
 <data:post.body/> <!-- Contenido de la entrada. Interpreta Html. -->	
 <b:section id='sidebar'> </b:section> <!-- Crear sección sidebar. -->
+<data:post.numComments/> <!-- Muestra la cantidad de comentarios. -->
+<a expr:href="data:post.addCommentUrl"><data:post.commentLabelFull/></a> <!-- Enlace hacia los comentarios.. -->
+
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
