@@ -24,7 +24,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:section id='sidebar'> </b:section> <!-- Crear sección sidebar. -->
 <data:post.numComments/> <!-- Muestra la cantidad de comentarios. -->
 <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:post.numComments/> Comentarios</a> <!-- Enlace hacia los comentarios.. -->
-
+<a expr:href="data:label.url"><b:loop values='data:post.labels' var='label'><data:label.name/></b:loop></a> <!-- Muestra variable label expresada en un bucle. -->
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
