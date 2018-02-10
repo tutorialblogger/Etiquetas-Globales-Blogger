@@ -15,7 +15,8 @@ Referencia URL: http://www.ciudadblogger.com/
 <data:post.authorProfileUrl/>	<!-- Url del perfil de Blogger o Google+ -->	
 <a expr:href='data:post.url' style='color:#fff'></a> <!-- URL hacia la entrada -->	
 <data:post.title/> <!-- Título de la entrada -->	
-<data:post.date/> <!-- Fecha en el formato configurado -->	
+<data:post.date/> <!-- Fecha en el formato configurado -->
+<data:post.timestamp/> <!-- Fecha y hora de las entradas en el formato configurado -->
 <a expr:href='data:blog.homepageUrl'></a> <!-- URL de la página principal. -->	
 <data:blog.title/>	<!-- Título del blog -->
 <b:eval expr='data:post.longSnippet snippet {length: 150}'/> <!-- Resumen de la entrada. Máximo 1000 caracteres. No interpreta html -->
