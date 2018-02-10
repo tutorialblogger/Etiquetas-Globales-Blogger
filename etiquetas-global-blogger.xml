@@ -23,7 +23,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <data:post.body/> <!-- Contenido de la entrada. Interpreta Html. -->	
 <b:section id='sidebar'> </b:section> <!-- Crear sección sidebar. -->
 <data:post.numComments/> <!-- Muestra la cantidad de comentarios. -->
-<a expr:href="data:post.addCommentUrl"><data:post.commentLabelFull/></a> <!-- Enlace hacia los comentarios.. -->
+<a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:post.numComments/> Comentarios</a> <!-- Enlace hacia los comentarios.. -->
 
 
 <!-- CONDICIONALES DE BLOGGER --> 
