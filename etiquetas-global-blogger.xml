@@ -26,6 +26,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:post.numComments/> Comentarios</a> <!-- Enlace hacia los comentarios.. -->
 <b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop> <!-- Muestra variable label expresada en un bucle. -->
 <data:blog.metaDescription/> <!-- Muestra la meta descripcion de la página o del post. -->
+	
 
 <!-- CONDICIONALES DE BLOGGER --> 
 
@@ -39,9 +40,9 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:if cond='data:blog.pageType != &quot;archive&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas del archivo del blog -->   
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'> <!-- Ejecutar elemento en todas las páginas MENOS en las páginas estáticas -->   
 <b:if cond='data:blog.url != &quot;URL de la entrada o etiqueta&quot;'> <!-- Ejecutar  en todas las páginas MENOS en una entrada específica o etiqueta específica -->   
+<b:if cond='data:view.isError'><!-- url no existe muestra la pagina de error 404-->
+<b:else/> <!-- casos contrario muestra el blog-->
 </b:if> <!-- Cierre de la condicional -->
-
- <!-- CSS COMENTARIOS BLOGGER -->
  
 <!-- CSS COMENTARIOS BLOGGER -->
  
