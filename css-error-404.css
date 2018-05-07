@@ -67,3 +67,19 @@
 }
 
 /** FIN CSS PAGE ERROR 404 **/
+
+/** HTML PAGE ERROR 404 **/
+
+<div id='oopss'>
+<div id='error-text'>
+<span>404</span>
+<p>No se encontro nada :(</p>
+<p><a class='back' expr:href='data:blog.homepageUrl'>Pagina Inicio</a></p>
+</div>
+</div>  
+
+/** FIN HTML PAGE ERROR 404 **/
+
+
+
+
