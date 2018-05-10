@@ -1,0 +1,53 @@
+ /*-- CSS RESULTADO BUSQUEDA --*/
+
+.rev-1 {
+    padding-bottom: 2em;
+    margin-bottom: 1.55em;
+    border-bottom: 1px solid #aeaeae;
+}
+.rev-img {
+    float: left;
+    width: 40%;
+}
+.rev-info {
+    float: right;
+    width: 57%;
+}
+
+/*-- responsive-design --*/
+@media (max-width: 568px){
+.rev-img {
+    float: left;
+    width: 100%;
+}
+.rev-info {
+    float: right;
+    width: 100%;
+    margin-top: 1em;
+}
+
+}
+/*-- responsive-image --*/
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*-- FIN CSS RESULTADO BUSQUEDA --*/   
+         
+/*-- HTML RESULTADO BUSQUEDA --*/			 
+			 
+			 
+			 <div class='rev-1'>
+     			<div class='rev-img'>
+      				<a expr:href='data:post.url.canonical'><img class='img-responsive' expr:alt='data:post.title' expr:src='data:post.firstImageUrl'/></a>
+     			</div> 
+     			<div class='rev-info'>
+               		<h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+               		<p><b:eval expr='data:post.longSnippet snippet {length: 150}'/></p>
+     			</div>
+     			<div class='clearfix'/>
+    		</div>
+			
+/*-- FIN HTML RESULTADO BUSQUEDA --*/			
