@@ -26,6 +26,10 @@ Referencia URL: http://www.ciudadblogger.com/
 <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:post.numComments/> Comentarios</a> <!-- Enlace hacia los comentarios.. -->
 <b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop> <!-- Muestra variable label expresada en un bucle. -->
 <data:blog.metaDescription/> <!-- Muestra la meta descripcion de la página o del post. -->
+<form expr:action='data:blog.searchUrl'> <!-- Ejecuta el enlace de la pagina de busqueda. -->
+<input name='q' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' /> <!-- Devuelve la busqueda en el blog. -->
+<input expr:value='data:messages.search'/> <!-- Muestra el boton "Buscar". -->	
+
 	
 
 <!-- CONDICIONALES DE BLOGGER --> 
@@ -43,6 +47,8 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:if cond='data:view.isError'><!-- url no existe muestra la pagina de error 404-->
 <b:else/> <!-- casos contrario muestra el blog-->
 </b:if> <!-- Cierre de la condicional -->
+<b:attr cond='not data:view.isPreview' name='target' value='_top'/> <!-- Condición que indica que no es una vista previa. -->	
+
  
 <!-- CSS COMENTARIOS BLOGGER -->
  
