@@ -102,6 +102,8 @@
   </b:if>
 </b:includable>
 
- 
+ <!-- RECOMENDACION FINAL -->
+
+//** Parsear el codigo del html en el index y aplicar la condicional para que solo se muestre en la home y no afecte a la pagina de busqueda  **//
          
 			
