@@ -38,7 +38,7 @@
 /*-- FIN CSS RESULTADO BUSQUEDA --*/   
 <!-- PASO # 2: Insertar las condicionales en <b:includable id='main' var='top'>  -->
 
-<!-- Luego de la condicional del index -->
+<!-- Luego de la condicional del index <b:if cond='data:view.isMultipleItems'> -->
 <b:if cond='data:numPosts == 0'>
 	<b:if cond='data:blog.searchQuery'>No hay entradas con esos términos de búsqueda
 		<b:else/>Este blog aún no tiene entradas con esa etiqueta.
@@ -51,6 +51,8 @@
 <!-- Continua con el index y las entradas -->
 
 <!-- PASO # 3: Insertar las condicionales en <b:includable id='post' var='post'> -->
+
+<!-- Luego de la condicional del index <b:if cond='data:view.isMultipleItems'> -->
 
 <b:if cond='!data:view.isSearch'>
  
@@ -82,7 +84,23 @@
 			
 <!-- FIN HTML RESULTADO BUSQUEDA -->
 <!-- PASO # 5: Insertar el status-message -->
+<!-- Luego del includable <b:includable id='postQuickEdit' var='post'> -->
 
+    <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <center><data:navMessage/></center>
+    </div>
+   <!-- <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div> -->
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
 
  
          
