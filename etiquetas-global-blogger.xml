@@ -47,7 +47,8 @@ Referencia URL: http://www.ciudadblogger.com/
 <b:if cond='data:view.isError'><!-- url no existe muestra la pagina de error 404-->
 <b:else/> <!-- casos contrario muestra el blog-->
 </b:if> <!-- Cierre de la condicional -->
-<b:attr cond='not data:view.isPreview' name='target' value='_top'/> <!-- Condición que indica que no es una vista previa. -->	
+<b:attr cond='not data:view.isPreview' name='target' value='_top'/> <!-- Condición que indica que no es una vista previa. -->
+<b:if cond='data:view.isSearch'> <!-- Mostrar gadgets solo en la página de resutados para la busqueda -->
 
  
 <!-- CSS COMENTARIOS BLOGGER -->
