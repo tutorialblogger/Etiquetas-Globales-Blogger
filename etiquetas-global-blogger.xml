@@ -28,7 +28,8 @@ Referencia URL: http://www.ciudadblogger.com/
 <data:blog.metaDescription/> <!-- Muestra la meta descripcion de la página o del post. -->
 <form expr:action='data:blog.searchUrl'> <!-- Ejecuta el enlace de la pagina de busqueda. -->
 <input name='q' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' /> <!-- Devuelve la busqueda en el blog. -->
-<input expr:value='data:messages.search'/> <!-- Muestra el boton "Buscar". -->	
+<input expr:value='data:messages.search'/> <!-- Muestra el boton "Buscar". -->
+<URL-de-mi-blog/search?max-results=1000> <!-- Muestra la página de resultados para las busquedas". -->	
 
 	
 
