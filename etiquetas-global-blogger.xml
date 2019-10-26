@@ -10,6 +10,7 @@ Referencia URL: http://www.ciudadblogger.com/
 <!-- ETIQUETAS DE DATOS GLOBALES EN BLOGGER --> 
 
 <img expr:src='data:post.firstImageUrl'/> <!-- Primera imagen de la entrada -->	
+<img expr:src='data:post.featuredImage'/> <!-- Primera imagen de la entrada canvas.xml v1.9.0 -->	
 <expr:alt='data:post.title'/> <!-- Etiqueta ALT para imagenes -->
 <data:post.author/>	<!-- Nombre del autor -->	
 <data:post.authorProfileUrl/>	<!-- Url del perfil de Blogger o Google+ -->	
