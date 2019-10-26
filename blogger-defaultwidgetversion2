@@ -1,0 +1,113 @@
+<b:widget id='Blog1' title='' type='Blog' version='2'>
+  <b:includable id='main'>
+
+    <data:title/>
+    <data:description/>
+    <data:olderPageUrl/>
+    <data:newerPageUrl/>
+    <data:navMessage/>
+    <data:adCode/>
+    <data:adClientId/>
+    <data:cmtIframeInitialHeight/>
+    <data:showCmtPopup/>
+    <data:messages.blogComment/>
+    <b:loop values='data:feedLinks' var='feedLink'>
+      <data:feedLink.url/>
+      <data:feedLink.name/>
+      <data:feedLink.feedType/>
+      <data:feedLink.mimeType/>
+    </b:loop>
+    <b:loop values='data:posts' var='post'>
+      <data:post.id/>
+      <data:post.title/>
+      <data:post.body/>
+      <data:post.snippets.short/>
+      <data:post.snippets.long/>
+      <data:post.url/>
+      <data:post.link/>
+      <data:post.thumbnailUrl/>
+      <data:post.featuredImage/>
+      <data:post.date/>
+      <data:post.lastUpdated/>
+      <data:post.author.name/>
+      <data:post.author.profileUrl/>
+      <data:post.author.aboutMe/>
+      <data:post.author.authorPhoto.image/>
+      <data:post.author.authorPhoto.width/>
+      <data:post.author.authorPhoto.height/>
+      <data:post.hasJumpLink/>
+      <data:post.adminClass/>
+      <data:post.postAuthorClass/>
+      <data:post.allowComments/>
+      <data:post.allowNewComments/>
+      <data:post.noNewCommentsText/>
+      <data:post.numberOfComments/>
+      <data:post.commentsUrl/>
+      <data:post.commentsUrlOnclick/>
+      <data:post.commentPagingRequired/>
+      <data:post.hasOlderLinks/>
+      <data:post.oldLinkClass/>
+      <data:post.oldestLinkUrl/>
+      <data:post.olderLinkUrl/>
+      <data:post.hasNewerLinks/>
+      <data:post.newLinkClass/>
+      <data:post.newerLinkUrl/>
+      <data:post.newestLinkUrl/>
+      <data:post.commentRangeText/>
+      <data:post.commentFormIframeSrc/>
+      <data:post.embedCommentForm/>
+      <data:post.showThreadedComments/>
+      <data:post.commentFeed/>
+      <data:post.commentHtml/>
+      <data:post.avatarIndentClass/>
+      <data:post.includeAd/>
+      <data:post.adNumber/>
+      <data:post.emailPostUrl/>
+      <data:post.shareUrl/>
+      <data:post.reactionsUrl/>
+      <data:post.cmtfpIframe/>
+      <data:post.appRpcRelayPath/>
+      <data:post.location.mapsUrl/>
+      <data:post.location.name/>
+      <b:loop values='data:labels' var='label'>
+        <data:label.name/>
+        <data:label.url/>
+      </b:loop>
+      <b:loop values='data:feedLinks' var='feedLink'>
+        <data:feedLink.url/>
+        <data:feedLink.name/>
+        <data:feedLink.feedType/>
+        <data:feedLink.mimeType/>
+      </b:loop>
+      <b:loop values='data:comments' var='comment'>
+        <data:comment.id/>
+        <data:comment.inReplyTo/>
+        <data:comment.cmtBodyIdPostfix/>
+        <data:comment.url/>
+        <data:comment.body/>
+        <data:comment.timestamp/>
+        <data:comment.timestampValue/>
+        <data:comment.timestampAbs/>
+        <data:comment.author/>
+        <data:comment.authorUrl/>
+        <data:comment.authorUserType/>
+        <data:comment.authorPhoto.url/>
+        <data:comment.authorPhoto.width/>
+        <data:comment.authorPhoto.height/>
+        <data:comment.authorAvatarSrc/>
+        <data:comment.authorAvatarImage/>
+        <data:comment.anchorName/>
+        <data:comment.deleteUrl/>
+        <data:comment.isDeleted/>
+        <data:comment.adminClass/>
+      </b:loop>
+      <b:loop values='data:enclosures' var='enclosure'>
+        <data:enclosure.url/>
+        <data:enclosure.mimeType/>
+      </b:loop>
+    </b:loop>
+
+  </b:includable>
+</b:widget>
+
+Información gracias a https://bloggercode-blogconnexion.blogspot.com/1979/08/Ressource-Blog-v2.html
