@@ -85,13 +85,14 @@
 
 <b:skin><![CDATA[
 /*!
-=> Theme Adaptation Name: Blogspot Owinile Njalo
-=> Theme URI: https://blogspot.owinile.com/
-=> Author: Owinile Njalo
-=> Author URI: https://admin.owinile.com/
-=> Version: v1.10.0_rev1_2024
+=> Theme Canvas.xml v1.10.0: https://github.com/zkreations/canvas.xml
+=> Author Canvas.xml : Zkreations
+=> Author Canvas URI: https://github.com/zkreations
+=> Version: v1.10.0
 => License: Creative Commons Atribucion-NoComercial 4.0 Internacional
 => License URI: http://creativecommons.org/licenses/by-nc/4.0/
+=> Shared for blogger by: Owinile Njalo (https://blogspot.owinile.com)
+=> Youtube channel: https://www.youtube.com/channel/UCfhBgrQQXoFfv5IAYqHNrtg
 */
 
 /*Fix: Unnecessary elements removed*/
